@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED3D28E829A4DF4D003838E8 /* WhoWinLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3D28E729A4DF4D003838E8 /* WhoWinLogic.swift */; };
+		ED441493299B794B00338EF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED441492299B794B00338EF4 /* AppDelegate.swift */; };
+		ED441495299B794B00338EF4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED441494299B794B00338EF4 /* SceneDelegate.swift */; };
+		ED441497299B794B00338EF4 /* StartNewGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED441496299B794B00338EF4 /* StartNewGameViewController.swift */; };
+		ED44149C299B794C00338EF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED44149B299B794C00338EF4 /* Assets.xcassets */; };
+		ED4414A8299B811700338EF4 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = ED4414A7299B811700338EF4 /* SnapKit */; };
+		ED4414AF299B8CFD00338EF4 /* EnterTheNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4414AE299B8CFD00338EF4 /* EnterTheNumberViewController.swift */; };
+		ED4414B3299B998E00338EF4 /* BotTryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4414B2299B998E00338EF4 /* BotTryViewController.swift */; };
+		ED4414B5299B999D00338EF4 /* PlayerTryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4414B4299B999D00338EF4 /* PlayerTryViewController.swift */; };
+		ED4414B7299B9A0700338EF4 /* FinalScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4414B6299B9A0700338EF4 /* FinalScoreViewController.swift */; };
+		EDAA5DD629A3882100A87FD0 /* StartNewGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAA5DD529A3882100A87FD0 /* StartNewGameView.swift */; };
+		EDAA5DD829A3884100A87FD0 /* EnterTheNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAA5DD729A3884100A87FD0 /* EnterTheNumberView.swift */; };
+		EDAA5DDA29A3887100A87FD0 /* BotTryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAA5DD929A3887100A87FD0 /* BotTryView.swift */; };
+		EDAA5DDC29A3889900A87FD0 /* PlayerTryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAA5DDB29A3889900A87FD0 /* PlayerTryView.swift */; };
+		EDAA5DDE29A388AB00A87FD0 /* FinalScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAA5DDD29A388AB00A87FD0 /* FinalScoreView.swift */; };
+		EDAA5DE029A3A34000A87FD0 /* NumberOfBotsTries.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAA5DDF29A3A34000A87FD0 /* NumberOfBotsTries.swift */; };
+		EDAA5DE229A3A54F00A87FD0 /* NumberOfPlayersTries.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAA5DE129A3A54F00A87FD0 /* NumberOfPlayersTries.swift */; };
+		EDAA5DE429A3A76900A87FD0 /* PlayerNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAA5DE329A3A76900A87FD0 /* PlayerNumber.swift */; };
+		EDAA5DE629A3AA7600A87FD0 /* BotNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAA5DE529A3AA7600A87FD0 /* BotNumber.swift */; };
+		EDAA5DE829A3C5D000A87FD0 /* BotGuessesNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAA5DE729A3C5D000A87FD0 /* BotGuessesNumber.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED3D28E729A4DF4D003838E8 /* WhoWinLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhoWinLogic.swift; sourceTree = "<group>"; };
+		ED44148F299B794B00338EF4 /* GuessTheNumberNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessTheNumberNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED441492299B794B00338EF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED441494299B794B00338EF4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ED441496299B794B00338EF4 /* StartNewGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartNewGameViewController.swift; sourceTree = "<group>"; };
+		ED44149B299B794C00338EF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED4414A0299B794C00338EF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED4414AE299B8CFD00338EF4 /* EnterTheNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterTheNumberViewController.swift; sourceTree = "<group>"; };
+		ED4414B2299B998E00338EF4 /* BotTryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotTryViewController.swift; sourceTree = "<group>"; };
+		ED4414B4299B999D00338EF4 /* PlayerTryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTryViewController.swift; sourceTree = "<group>"; };
+		ED4414B6299B9A0700338EF4 /* FinalScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalScoreViewController.swift; sourceTree = "<group>"; };
+		EDAA5DD529A3882100A87FD0 /* StartNewGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartNewGameView.swift; sourceTree = "<group>"; };
+		EDAA5DD729A3884100A87FD0 /* EnterTheNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterTheNumberView.swift; sourceTree = "<group>"; };
+		EDAA5DD929A3887100A87FD0 /* BotTryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotTryView.swift; sourceTree = "<group>"; };
+		EDAA5DDB29A3889900A87FD0 /* PlayerTryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTryView.swift; sourceTree = "<group>"; };
+		EDAA5DDD29A388AB00A87FD0 /* FinalScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalScoreView.swift; sourceTree = "<group>"; };
+		EDAA5DDF29A3A34000A87FD0 /* NumberOfBotsTries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfBotsTries.swift; sourceTree = "<group>"; };
+		EDAA5DE129A3A54F00A87FD0 /* NumberOfPlayersTries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfPlayersTries.swift; sourceTree = "<group>"; };
+		EDAA5DE329A3A76900A87FD0 /* PlayerNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerNumber.swift; sourceTree = "<group>"; };
+		EDAA5DE529A3AA7600A87FD0 /* BotNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotNumber.swift; sourceTree = "<group>"; };
+		EDAA5DE729A3C5D000A87FD0 /* BotGuessesNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotGuessesNumber.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED44148C299B794B00338EF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4414A8299B811700338EF4 /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED441486299B794B00338EF4 = {
+			isa = PBXGroup;
+			children = (
+				ED441491299B794B00338EF4 /* GuessTheNumberNew */,
+				ED441490299B794B00338EF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED441490299B794B00338EF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED44148F299B794B00338EF4 /* GuessTheNumberNew.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED441491299B794B00338EF4 /* GuessTheNumberNew */ = {
+			isa = PBXGroup;
+			children = (
+				ED4414AA299B82DE00338EF4 /* Models */,
+				EDE0A690299CF03E002804E0 /* Views */,
+				ED4414A9299B82C900338EF4 /* Controllers */,
+				ED4414AB299B82FE00338EF4 /* Others */,
+				ED4414A0299B794C00338EF4 /* Info.plist */,
+			);
+			path = GuessTheNumberNew;
+			sourceTree = "<group>";
+		};
+		ED4414A9299B82C900338EF4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ED441496299B794B00338EF4 /* StartNewGameViewController.swift */,
+				ED4414AE299B8CFD00338EF4 /* EnterTheNumberViewController.swift */,
+				ED4414B2299B998E00338EF4 /* BotTryViewController.swift */,
+				ED4414B4299B999D00338EF4 /* PlayerTryViewController.swift */,
+				ED4414B6299B9A0700338EF4 /* FinalScoreViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ED4414AA299B82DE00338EF4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EDAA5DDF29A3A34000A87FD0 /* NumberOfBotsTries.swift */,
+				EDAA5DE129A3A54F00A87FD0 /* NumberOfPlayersTries.swift */,
+				EDAA5DE529A3AA7600A87FD0 /* BotNumber.swift */,
+				EDAA5DE329A3A76900A87FD0 /* PlayerNumber.swift */,
+				EDAA5DE729A3C5D000A87FD0 /* BotGuessesNumber.swift */,
+				ED3D28E729A4DF4D003838E8 /* WhoWinLogic.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ED4414AB299B82FE00338EF4 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				ED441492299B794B00338EF4 /* AppDelegate.swift */,
+				ED441494299B794B00338EF4 /* SceneDelegate.swift */,
+				ED44149B299B794C00338EF4 /* Assets.xcassets */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		EDE0A690299CF03E002804E0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EDAA5DD529A3882100A87FD0 /* StartNewGameView.swift */,
+				EDAA5DD729A3884100A87FD0 /* EnterTheNumberView.swift */,
+				EDAA5DD929A3887100A87FD0 /* BotTryView.swift */,
+				EDAA5DDB29A3889900A87FD0 /* PlayerTryView.swift */,
+				EDAA5DDD29A388AB00A87FD0 /* FinalScoreView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED44148E299B794B00338EF4 /* GuessTheNumberNew */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED4414A3299B794C00338EF4 /* Build configuration list for PBXNativeTarget "GuessTheNumberNew" */;
+			buildPhases = (
+				ED44148B299B794B00338EF4 /* Sources */,
+				ED44148C299B794B00338EF4 /* Frameworks */,
+				ED44148D299B794B00338EF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuessTheNumberNew;
+			packageProductDependencies = (
+				ED4414A7299B811700338EF4 /* SnapKit */,
+			);
+			productName = GuessTheNumberNew;
+			productReference = ED44148F299B794B00338EF4 /* GuessTheNumberNew.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED441487299B794B00338EF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					ED44148E299B794B00338EF4 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = ED44148A299B794B00338EF4 /* Build configuration list for PBXProject "GuessTheNumberNew" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED441486299B794B00338EF4;
+			packageReferences = (
+				ED4414A6299B811700338EF4 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = ED441490299B794B00338EF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED44148E299B794B00338EF4 /* GuessTheNumberNew */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED44148D299B794B00338EF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED44149C299B794C00338EF4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED44148B299B794B00338EF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDAA5DDA29A3887100A87FD0 /* BotTryView.swift in Sources */,
+				ED4414AF299B8CFD00338EF4 /* EnterTheNumberViewController.swift in Sources */,
+				EDAA5DE029A3A34000A87FD0 /* NumberOfBotsTries.swift in Sources */,
+				EDAA5DDE29A388AB00A87FD0 /* FinalScoreView.swift in Sources */,
+				EDAA5DD629A3882100A87FD0 /* StartNewGameView.swift in Sources */,
+				EDAA5DD829A3884100A87FD0 /* EnterTheNumberView.swift in Sources */,
+				ED3D28E829A4DF4D003838E8 /* WhoWinLogic.swift in Sources */,
+				ED4414B5299B999D00338EF4 /* PlayerTryViewController.swift in Sources */,
+				ED441497299B794B00338EF4 /* StartNewGameViewController.swift in Sources */,
+				EDAA5DE629A3AA7600A87FD0 /* BotNumber.swift in Sources */,
+				EDAA5DE829A3C5D000A87FD0 /* BotGuessesNumber.swift in Sources */,
+				ED441493299B794B00338EF4 /* AppDelegate.swift in Sources */,
+				EDAA5DE429A3A76900A87FD0 /* PlayerNumber.swift in Sources */,
+				ED441495299B794B00338EF4 /* SceneDelegate.swift in Sources */,
+				EDAA5DE229A3A54F00A87FD0 /* NumberOfPlayersTries.swift in Sources */,
+				EDAA5DDC29A3889900A87FD0 /* PlayerTryView.swift in Sources */,
+				ED4414B7299B9A0700338EF4 /* FinalScoreViewController.swift in Sources */,
+				ED4414B3299B998E00338EF4 /* BotTryViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ED4414A1299B794C00338EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED4414A2299B794C00338EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED4414A4299B794C00338EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V3LDJGM5SK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GuessTheNumberNew/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.KorFa1.GuessTheNumberNew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED4414A5299B794C00338EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V3LDJGM5SK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GuessTheNumberNew/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.KorFa1.GuessTheNumberNew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED44148A299B794B00338EF4 /* Build configuration list for PBXProject "GuessTheNumberNew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4414A1299B794C00338EF4 /* Debug */,
+				ED4414A2299B794C00338EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED4414A3299B794C00338EF4 /* Build configuration list for PBXNativeTarget "GuessTheNumberNew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4414A4299B794C00338EF4 /* Debug */,
+				ED4414A5299B794C00338EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ED4414A6299B811700338EF4 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ED4414A7299B811700338EF4 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED4414A6299B811700338EF4 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = ED441487299B794B00338EF4 /* Project object */;
+}
